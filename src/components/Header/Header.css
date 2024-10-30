@@ -1,0 +1,37 @@
+/* Header.css */
+.header {
+  background-color: #fff;
+  height: 100px !important;
+}
+
+.header-first-row {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 0;
+}
+
+.header-first-row .container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.header-first-row ul {
+  display: flex;
+  gap: 20px; /* Space between items */
+  list-style: none;
+  margin: 10px;
+}
+
+.header-first-row li {
+  display: flex;
+  padding: 0;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.header-first-row a {
+  text-decoration: none;
+  color: #333; /* Customize link color */
+}

@@ -1,0 +1,102 @@
+.header-second-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  margin-top: -15px;
+}
+
+.leftCorner {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  flex-basis: 60%; /* Allocates 70% of space */
+  margin-left: 24px;
+}
+
+.logo-image {
+  height: 75px;
+  width: 75px;
+  border-radius: 50px;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.searchBar {
+  width: 100%; /* Takes up full width of the left corner */
+  max-width: 600px; /* Maximum width for the search bar */
+  border-radius: 25px;
+}
+
+.rightCorner {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-basis: 40%; /* Allocates 30% of space */
+  margin-right: 30px;
+}
+
+/* Additional styling for the search input */
+.searchBar input {
+  width: 100%; /* Ensures the input takes up full width of searchBar */
+  padding: 10px;
+  border-radius: 45px; /* Sets rounded corners */
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+}
+
+.deals-link {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between icon and text */
+}
+
+.percent-icon {
+  color: rgb(22, 21, 21); /* Icon color */
+  font-size: 2px; /* Adjust font size as needed */
+}
+
+.deals-text {
+  color: black; /* Text color */
+  font-weight: bold;
+  text-decoration: none; /* Remove underline */
+}
+
+.deals-link {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between icon and text */
+}
+
+.percent-icon-container {
+  background-color: black; /* Black background for icon */
+  border-radius: 50%; /* Circular shape */
+  padding: 8px; /* Space around the icon */
+  display: flex; /* Center icon inside */
+  justify-content: center; /* Center icon */
+  align-items: center; /* Center icon */
+}
+
+.percent-icon {
+  color: white; /* Always white color for the icon */
+  font-size: 1px; /* Adjust font size to reduce icon size */
+  /* Ensure it does not exceed container size */
+  width: 20px; /* Specify width */
+  height: 20px; /* Specify height */ /* Adjust font size as needed */
+}
+
+.deals-text {
+  color: black; /* Text color */
+  font-weight: bold;
+  text-decoration: none; /* Remove underline */
+}
+
+.rightCorner a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit color from parent element */
+  font-weight: 600;
+}
