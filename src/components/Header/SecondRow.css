@@ -97,6 +97,11 @@
 
 .rightCorner a {
   text-decoration: none; /* Remove underline */
-  color: inherit; /* Inherit color from parent element */
-  font-weight: 600;
+  color: rgb(18, 5, 104); /* Inherit color from parent element */
+  font-size: 500;
+  font-weight: bold;
+}
+
+.auth {
+  margin-left: 55px;
 }

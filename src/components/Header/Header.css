@@ -1,7 +1,11 @@
 /* Header.css */
 .header {
   background-color: #fff;
-  height: 100px !important;
+  height: auto;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  margin-bottom: 10px;
 }
 
 .header-first-row {

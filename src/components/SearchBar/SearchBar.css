@@ -17,7 +17,8 @@
   border-radius: 25px;
   outline: none;
   font-size: 16px;
-  color: rgb(103, 42, 42);
+  color: black;
+  background-color: whitesmoke;
 }
 
 .search-icon {

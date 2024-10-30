@@ -34,15 +34,15 @@ const SecondRow = ({ onSearch }) => {
           </Link>
         </div>
         <Link to="/location">
-          <LocationOnOutlinedIcon style={{ color: "black" }} />
+          <LocationOnOutlinedIcon style={{ color: "rgb(18, 5, 104)" }} />
         </Link>
         <Link to="/favourites">
-          <FavoriteBorderOutlinedIcon style={{ color: "black" }} />
+          <FavoriteBorderOutlinedIcon style={{ color: "rgb(18, 5, 104)" }} />
         </Link>
         <Link to="/cart">
-          <ShoppingCartOutlinedIcon style={{ color: "black" }} />
+          <ShoppingCartOutlinedIcon style={{ color: "rgb(18, 5, 104)" }} />
         </Link>
-        <Link to="/signup">
+        <Link to="/signup" className="auth">
           Login{`  `}
           {"/"} Register
         </Link>

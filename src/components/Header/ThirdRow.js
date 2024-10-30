@@ -20,19 +20,22 @@ const ThirdRow = () => {
             <Link to="/category/home-office">Home Office</Link>
           </li>
           <li>
-            <Link to="/category/home-office">Kids Furniture</Link>
+            <Link to="/category/kids-furniture">Kids Furniture</Link>
           </li>
           <li>
-            <Link to="/category/home-office">Plastic Chairs</Link>
+            <Link to="/category/plastic-chairs">Plastic Chairs</Link>
           </li>
           <li>
-            <Link to="/category/home-office">Utility</Link>
+            <Link to="/category/utility">Utility</Link>
           </li>
           <li>
-            <Link to="/category/home-office">Premium Plastic</Link>
+            <Link to="/category/premium-plastic">Premium Plastic</Link>
           </li>
           <li>
-            <Link to="/category/home-office">Modular Beds</Link>
+            <Link to="/category/modular-beds">
+              Modular Beds
+              <span className="new-tag">New</span>
+            </Link>
           </li>
         </ul>
       </nav>
